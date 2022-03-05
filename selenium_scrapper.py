@@ -1,5 +1,4 @@
 import os
-
 import time
 import data_generator
 import requests
@@ -36,4 +35,3 @@ checkbox_regulations.click()
 
 create_account_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Stwórz konto')]")
 create_account_button.click()
-# driver.quit()
